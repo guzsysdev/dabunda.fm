@@ -1,0 +1,24 @@
+# Instruções internas do projeto (não devem ir para o repositório)
+CLAUDE.md
+ESCOPO.md
+.claude/
+
+# Segredos (token do bot, chave da Azure) - só o .env.example vai para o repositório
+.env
+.env.*
+!.env.example
+
+# Dependências
+node_modules/
+
+# Músicas locais e áudios gerados nos testes
+music/
+saidas/
+*.wav
+*.mp3
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
